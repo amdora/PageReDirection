@@ -1,0 +1,56 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<script>
+    function visitYadorigi() {
+        window.open("https://yadorigi-myspace.com/?page_id=1367");
+    }
+    function visitVideoCall() {
+        window.open("https://recovideocallwindows.azurewebsites.net");
+    }
+</script>
+<style>
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 20%;
+    }
+</style>
+<div class="container">
+    <div style="text-align:center;">
+        <img src="~/Content/Img/logo.png"  class="center"/>
+    </div>
+    <div style="text-align:center;">
+        <h2>
+            ご用件をお選びください
+        </h2>
+    </div>
+    <div style="text-align:center;">
+        <p>
+            配送業者や訪問者の方で、ご入居者様へご連絡をご希望の方はこちら
+        </p>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <button onclick="visitYadorigi();" type="submit" class="btn btn-default">
+                入居者一覧
+            </button>
+        </div>
+    </div>
+    <div style="text-align:center;">
+        <p>
+            その他、お困りの方はこちら
+        </p>
+    </div>
+    <div class="row">
+        <div class="col text-center">
+            <button onclick="visitVideoCall();" type="submit" class="btn btn-default">
+                テレビ電話でお問合せ
+            </button>
+        </div>
+    </div>
+</div>
+
+
