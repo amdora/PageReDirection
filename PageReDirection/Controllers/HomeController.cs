@@ -15,7 +15,7 @@ namespace PageReDirection.Controllers
         [HttpPost]
         public ActionResult page1()
         {
-            return Redirect("https://yadorigi-myspace.com/?page_id=1367");//
+            return Redirect("https://yadorigi-myspace.com/?page_id=1367");///
         }
         [HttpPost]
         public ActionResult page2()
